@@ -12,4 +12,4 @@ datos = [50.3, 50.5, 50.8, 51.3, 51.7, 51.3, 51.1, 51.4, 51.3, 51.6, 50.2, 50.5,
 df = pd.DataFrame(datos, columns=['Muestra'])
 
 # Guardar el DataFrame en un archivo Excel
-#df.to_excel('muestra_datos.xlsx', index=False, engine='openpyxl')
+df.to_excel('muestra_datos.xlsx', index=False, engine='openpyxl')
